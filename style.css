@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.tombody {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.mini {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  width: 100vw;
+  height: 85px;
+  background-color: rgb(24, 24, 24);
+}
+.jijigbody {
+  width: 30vw;
+  height: 50vh;
+  background-color: rgb(198, 198, 198);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.towch {
+  width: 300px;
+  height: 40px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+}
+.towch:hover {
+  background-color: aqua;
+}
+.sign1 {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+}
