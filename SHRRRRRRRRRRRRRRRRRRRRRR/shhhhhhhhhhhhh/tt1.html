@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="w-[100vw] h-[100vh] relative object-cover">
+    <video class="w-[100%] h-[100%] absolute top-0" autoplay muted loop>
+      <source src="videoplayback.mp4" type="video/mp4" />
+    </video>
+    <div class="w-[25vw] h-[100vh] flex flex-col justify-center p-4 gap-6 z-10">
+      <div class="w-[100%] h-[30%] backdrop-blur-xl rounded-xl z-10 text-white flex flex-col justify-center items-center">
+        <h1>hello</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+          architecto reprehenderit blanditiis, !
+        </p>
+      </div>
+      <div class="w-[100%] h-[30%] backdrop-blur-xl rounded-xl z-10"></div>
+      <div class="w-[100%] h-[30%] backdrop-filter-xl rounded-xl z-10"></div>
+    </div>
+    <div class="w-[75%] h-[100%] p-6 z-10 absolute top-0 right-0">
+      <div class="w-[100%] h-[10%] bg-red-500 rounded-full z-10"></div>
+    </div>
+  </body>
+</html>
