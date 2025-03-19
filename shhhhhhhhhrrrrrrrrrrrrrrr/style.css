@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero {
+  height: 100vh;
+  background-image: url(i.webp.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content {
+  height: 100vh;
+}
+.hero1 {
+  height: 100vh;
+  background-image: url(i.webp.png);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content1 {
+  height: 100vh;
+}
+.myao {
+  width: 1200px;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  gap: 30px;
+  border: 2px solid black;
+}
+.myao h1 {
+  color: white;
+}
+.myao p {
+  color: white;
+  margin-top: 50px;
+}
+.myao button {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 100px;
+  background-color: rgb(163, 37, 37);
+}
+.myao button:hover {
+  background-color: rgb(255, 0, 0);
+}
+@media (max-width: 480px) {
+  body {
+  }
+}
